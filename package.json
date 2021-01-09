@@ -1,7 +1,8 @@
 {
   "name": "template-react-default",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "description": "React Default Template",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -17,6 +18,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "dev": "acady dev",
+    "deploy": "acady deploy",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
